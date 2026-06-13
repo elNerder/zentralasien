@@ -1,0 +1,466 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*text-align: center;  NICHT BEI STERN bei Final */  
+
+}
+body{
+
+    background-image: url(gradient-golden-arabic-pattern/5259223.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+}
+header{
+    color: rgb(20, 125, 245);
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    border-bottom: solid;
+    border-top: solid;
+    border-right: none;
+    border-left: none;
+    border-color: black;
+
+    font-size: 50px;
+
+    margin-bottom: 50px;
+    font-style: oblique;
+    padding: 75px;
+    background-image: url(Hintergründe/issyköl\ small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.maindesc{
+
+ color: white;
+ -webkit-text-stroke: 1px black;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-left: 25px;
+ font-size: 30px;
+ font-style: bold;
+}
+.k1{
+    color:#00B0C7;
+}
+.buttonmap {
+    width: 500px;
+    padding-top: 90px; 
+    padding-bottom: 50px; 
+    
+   
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+        linear-gradient(rgba(128, 128, 128, 0.8), rgba(128, 128, 128, 0.8)),
+        url('Zentralasien.png');
+    background-size: 25% 25px, 50% 120px, 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonmap h1 {
+    font-size: 25px;
+    margin: 0 0 10px 0 !important; 
+    padding: 0 !important;
+    line-height: 1.2 !important;
+
+}
+
+.buttonmap button {
+    font-size: 15px;
+    color: blue; 
+    margin-bottom: 80px;
+    padding: 5px 45px !important; 
+    line-height: 1.2 !important;
+    height: 27px;
+    
+
+    background-image: linear-gradient(transparent, transparent);
+    background-size: 100% 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.2s ease;
+    background-position: center 0%;
+}
+
+.Infos{ 
+    float:unset;
+    font-size: 25px;
+   background-color: cyan;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;  
+	text-align: far-left;
+  max-width: 500px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+    text-align: center;
+    color: black;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+
+}
+
+/* KAZAKHSTAN SPEZIFISCH*/
+.kzWüsten{ 
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kzdüne.jpg");
+	text-align: far-left;
+  max-width: 500px;
+  padding-bottom: 150px;
+
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+.kzSteppen{
+ font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kysteppe.jpg");
+    position: right;
+	text-align: center;
+    float:right;
+  max-width: 500px;
+  margin-top: 50px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+.kzWälder{
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kzWälder.jpg");
+	text-align: far-left;
+  max-width: 500px;
+  padding-bottom: 150px;
+    margin-top: 500px;  
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+
+.kzKultur{
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kzkultur.JPG");
+	text-align: far-left;
+    float:right;
+  max-width: 500px;
+  padding-bottom: 150px;
+   
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+.kzEssen{
+ font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kzessen.jpg");
+    position: right;
+
+    
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+    background-size: 100%;
+}
+
+.kzRussen{
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kzrussen.png");
+	text-align: far-left;
+    float:right;
+  max-width: 500px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+    background-size: 100%;
+}
+
+/* TAJIKISTAN SPEZIFISCH*/
+.BergTajik{
+    margin-left: 50px;
+}
+.tj_rechner{
+    color: royalblue;
+    font-size: 20px;
+
+}
+.tj_largesquare{
+    background-image: url(ismoil_somoni.jpg);
+    width: 800px;
+    height: 300px;
+    border: 3px solid #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+.tj_white-square{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #2E7D32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+.buttonmap button:hover {
+    background-image: linear-gradient(rgba(128, 128, 128, 0.8), rgba(128, 128, 128, 0.8));
+
+}
+/*USBEKISTAN SPEZIFISCH*/
+.uz_samarkand{
+ font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+    background-size: 100%;
+    position: right;
+
+    
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+	background-image: url("uzsamarkand.jpg");
+
+}
+.uz_metro{
+        font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("uzmetro.jpg");
+    background-size: 100%;
+	text-align: far-left;
+    float:right;
+  max-width: 500px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+.uz_exklaven{
+     font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("uzexklaven.png");
+    position: right;
+    background-size: 100%;
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+/*TURKMENISTAN SPEZIFISCH*/
+.Derweze{
+     font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("tmkrater.jpg");
+    position: right;
+    
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+.brunnen{
+     font-size: 25px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 300px;   
+	background-image: url("tmbrunnen.jpg");
+    position: right;
+    background-size: 300px;
+  max-width: 300px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+    .riesenrad{
+         font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("tmriesenrad.png");
+    position: right; 
+    background-size: 100%;
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+    }
+/*KIRGISISTAN SPEZIFISCH*/
+.kySee{
+     font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kysee.jpg");
+    position: right;
+    background-size: 100%;
+    
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+}
+    .kyYurt{
+ font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kyyurt.jpg");
+    position: right;
+    background-size: 100%;
+  max-width: 500px;
+    margin-top: 50px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+    }
+    .kyWild{
+         font-size: 50px;
+    -webkit-text-stroke: 1px black;
+	border: solid;
+	border-color: black; 
+	border-width: 3px;
+	height: 150px;   
+	background-image: url("kyWild.jpg");
+    position: right;
+        size:100%;
+    
+  max-width: 500px;
+    margin-top: 500px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+    text-align: center;
+    color: gold;
+    display: block;
+    width:100%;
+	padding-left: 5px;
+    }
+
+
+/* Turkmenistan: https://www.youtube.com/watch?v=e-tlidAyO7U&list=RDe-tlidAyO7U&start_radio=1*/
+
