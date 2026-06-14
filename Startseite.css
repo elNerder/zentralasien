@@ -5,7 +5,7 @@
 }
 body{
 
-    background-image: url(gradient-golden-arabic-pattern/5259223.jpg);
+    background-image: url(5259223.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -27,7 +27,7 @@ header{
     margin-bottom: 50px;
     font-style: oblique;
     padding: 75px;
-    background-image: url(Hintergründe/issyköl\ small.png);
+    background-image: url(small.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
