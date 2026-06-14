@@ -14,13 +14,18 @@ zufall.addEventListener("click", function(e){
     e.preventDefault();
     if(verbleibendeWebsites.length === 0){
     window.open("final.html");
-    verbleibendeWebsites = [...websites];
+    return;
 }
     const randomseite = Math.floor(Math.random() * verbleibendeWebsites.length);
     const naechsteSeite = verbleibendeWebsites[randomseite];
     verbleibendeWebsites.splice(randomseite, 1);
     localStorage.setItem('webRandomizerStatus', JSON.stringify(verbleibendeWebsites));
+    if(naechsteSeite){
     window.location.href = naechsteSeite;
+    }
+    else{
+        window.location.href = "final.html"M
+    }
 })
 
     document.getElementById("berechnungclick").addEventListener("click", function(){
