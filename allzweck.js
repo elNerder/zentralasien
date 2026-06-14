@@ -14,6 +14,7 @@ zufall.addEventListener("click", function(e){
     e.preventDefault();
     if(verbleibendeWebsites.length === 0){
     window.open("final.html");
+    verbleibendeWebsites = [...websites];
     return;
 }
     const randomseite = Math.floor(Math.random() * verbleibendeWebsites.length);
