@@ -1,11 +1,11 @@
 window.addEventListener('DOMContentLoaded', () => {
 
     const websites = [
-        "http://127.0.0.1:5500/_Kasachstan.html",
-        "http://127.0.0.1:5500/_Kirgisistan.html",
-        "http://127.0.0.1:5500/_Tadschikistan.html",
-        "http://127.0.0.1:5500/_Turkmenistan.html",
-        "http://127.0.0.1:5500/_Usbekistan.html"
+        "kasachstan.html",
+        "kirgisistan.html",
+        "tadschikistan.html",
+        "turkmenistan.html",
+        "usbekistan.html"
     ];
     let verbleibendeWebsites = JSON.parse(localStorage.getItem('webRandomizerStatus')) || [...websites];
     const zufall = document.getElementById("zufall");
@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
 zufall.addEventListener("click", function(e){
     e.preventDefault();
     if(verbleibendeWebsites.length === 0){
-    window.open("http://127.0.0.1:5500/_Final.html");
+    window.open("final.html");
     verbleibendeWebsites = [...websites];
 }
     const randomseite = Math.floor(Math.random() * verbleibendeWebsites.length);
