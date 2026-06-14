@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Startseite.css">
+    <title>Zentralasien - Tadschikistan</title>
+</head>
+
+<body>
+
+    <header>Hier sind die Alpen ein Witz</header>
+    <div class = "Infos">
+    <li>Hauptstadt: Duschanbe</li>
+    <li>Fläche: 143.099km^2 </li>
+    <li>Bevölkerung: 10,59 Mio.</li>
+</div>
+    <table>
+        <tr>
+        <th>Nr.</th>
+        <th>Berg</th>
+        <th>Höhe in m</th>
+        </tr>
+        <tr>
+        <td>1</td>
+        <td>Zugspitze</td>
+        <td id = "wert1">2962</td>
+        </tr>
+        <tr>
+        <td>2</td>
+        <td>Mont Blanc</td>
+        <td id = "wert2">4805</td>
+        </tr>
+        </table>
+        <li><span class="BergTajik">Nicht schlecht...nun die höchsten Berge Tadschikistans</span></li>
+         <table>
+        <td>3</td>    
+        <td>Qullai Istiqlol</td>
+        <td id = "wert3">6940</td>
+        </tr>
+        <td>4</td>
+        <td>Pik Lenin</td>
+        <td id = "wert4">7134</td>
+        </tr>
+        <td>5</td>
+        <td>Pik Ismoil Somoni</td>
+        <td id = "wert5">7495</td>
+        </tr>
+        
+    </table>
+
+    <div class="Rechner Höhe">
+        <li>Hier Höhendifferenzen berechnen:</li>
+    </div>
+    <div class="tj_largesquare">
+  <label class="tj_rechner"> Nummer eingeben(1-5):</label>
+  <input type="number" id="zahl1" min="1" max="5" value="1">
+  <div class="tj_rechner">Nummer eingeben(1-5):</div>
+  <input type="number" id="zahl2" min="1" max="5" value="1">
+  <button id="berechnungclick">Berechnen!</button>
+  <div class="tj_erg">Ergebnis:</div>
+  <h3 id="ergebnis">Keine Berge verglichen!</h3>
+</div>
+
+<div class="buttonmap">
+    <h1> Zufälliges Land</h1>
+    <button id = "zufall">Zufall</button> 
+    <script src ="allzweck.js"></script>
+</div>
+</body>
+</html>
