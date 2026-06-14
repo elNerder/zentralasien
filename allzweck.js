@@ -24,7 +24,7 @@ zufall.addEventListener("click", function(e){
     window.location.href = naechsteSeite;
     }
     else{
-        window.location.href = "final.html"M
+        window.location.href = "final.html";
     }
 })
 
